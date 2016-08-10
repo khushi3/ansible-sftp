@@ -1,0 +1,5 @@
+---
+
+- include: config.yml
+- include: users.yml
+- include: handlers/main.yml

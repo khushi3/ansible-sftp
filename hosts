@@ -1,0 +1,5 @@
+[developer-systems]
+172.16.138.111  ansible_connection=ssh  ansible_user=bigbear    ansible_ssh_pass=bigbear
+172.16.138.110  ansible_connection=ssh  ansible_user=bigbear    ansible_ssh_pass=bigbear
+
+

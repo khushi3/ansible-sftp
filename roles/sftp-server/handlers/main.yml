@@ -1,0 +1,13 @@
+---
+# For more information about handlers see:
+# http://www.ansibleworks.com/docs/playbooks.html#handlers-running-operations-on-change
+#
+- name: mount all
+  command: mount -a
+
+- name: SFTP-Server | restart sshd
+  service: name=ssh
+           state=restarted
+
+- name: restart ssh
+  command: service ssh restart
